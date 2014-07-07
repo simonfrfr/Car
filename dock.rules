@@ -1,0 +1,2 @@
+#SAMSUNG
+ACTION=="add",SUBSYSTEM=="usb",ATTR{idVendor}=="04e8",ATTR{idProduct}=="685c",RUN+="/etc/Car/phone_docked.sh %s{idVendor} %s{idProduct}"
