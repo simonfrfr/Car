@@ -8,5 +8,9 @@ chmod 755 /etc/Car/android-usb-audio.py
 chmod 755 /etc/Car/phone_docked.sh
 cp /etc/Car/dock.rules /etc/udev/rules.d 
 cp /etc/Car/pulseaudio2 /etc/init
+cp /etc/Car/wpa_supplicant.conf /etc
+rm -f /etc/network/interfaces
+cp /etc/Car/interfaces /etc/network
+
 
 
