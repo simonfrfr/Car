@@ -1,2 +1,4 @@
 #SAMSUNG
-ACTION=="add",SUBSYSTEM=="usb",ATTR{idVendor}=="04e8",ATTR{idProduct}=="685c",RUN+="/etc/Car/phone_docked.sh %s{idVendor} %s{idProduct}"
+ACTION=="add",SUBSYSTEM=="usb",ATTR{idVendor}=="04e8",ATTR{idProduct}=="6860",RUN+="/etc/Car/phone_docked.sh %s{idVendor} %s{idProduct}"
+#GOOGLE
+ACTION=="add",SUBSYSTEM=="usb",ATTR{idVendor}=="18d1",ATTR{idProduct}=="2d03",RUN+="/etc/Car/phone_docked.sh %s{idVendor} %s{idProduct}"

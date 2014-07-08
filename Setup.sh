@@ -1,6 +1,6 @@
 cd /home/ubuntu
 sudo apt-get update
-sudo apt-get install pulseaudio git
+sudo apt-get -y install pulseaudio git alsa
 git clone https://github.com/walac/pyusb
 cd /home/ubuntu/pyusb
 sudo python setup.py install
